@@ -11,7 +11,7 @@ const App: React.FC = () => {
       <Header />
       <Routes>
         <Route path='/' element={<TreePage1 />} />
-        <Route path='/tree2' element={<TreePage2 />} />
+        <Route path='/left-right' element={<TreePage2 />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
     </Router>

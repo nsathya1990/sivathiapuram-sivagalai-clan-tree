@@ -1,4 +1,3 @@
-// src/routes/TreePage.tsx
 import React from 'react';
 import FamilyTree from '../components/Tree';
 
