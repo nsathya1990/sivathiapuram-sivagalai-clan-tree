@@ -9,21 +9,70 @@
             "name": "Velaikann Nadar",
             "children": [
               {
-                "name": "ABC",
+                "name": "Ilayaperumal Nadar (alias) Gnanaprakasham",
+                "children": []
+              },
+              {
+                "name": "...",
                 "children": []
               }
             ]
           },
           {
-            "name": "Laxman Nadar",
-            "generation": 3,
-            "children": []
+            "name": "Laxman Nadar (alias) XYZ",
+            "children": [
+              {
+                "name": "Ilayaperumal Nadar (alias) XYZ",
+                "children": [
+                  {
+                    "name": "Aarogyam Nadar (NO CHILD)",
+                    "children": []
+                  },
+                  {
+                    "name": "Yesuvadiyan Nadar",
+                    "children": [
+                      {
+                        "name": "...",
+                        "children": [
+                          {
+                            "name": "... (ONLY FEMALE CHILDREN)",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Rathinam Nadar",
+                        "children": [
+                          {
+                            "name": "George Nadar",
+                            "children": [{ "name": "Xavier Nadar" }]
+                          },
+                          { "name": "...", "children": [{ "name": "..." }] },
+                          {
+                            "name": "...",
+                            "children": [{ "name": "..." }, { "name": "..." }]
+                          },
+                          { "name": "...", "children": [] }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "MariaManickam Nadar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "..."
+              }
+            ]
           },
           {
             "name": "Sivarama Nadar",
             "children": [
               {
-                "name": "Ramalingam Nadar",
+                "name": "Ramalingam Nadar (has 1 daughter)",
                 "children": [
                   {
                     "name": "Shanmugasundaram Nadar",
@@ -50,7 +99,7 @@
                         "name": "Narayana Nadar",
                         "children": [
                           {
-                            "name": "Saravana",
+                            "name": "Saravana Kumar",
                             "children": [
                               {
                                 "name": "Krishna",
@@ -76,12 +125,36 @@
                     ]
                   },
                   {
-                    "name": "ABC Nadar",
-                    "children": []
+                    "name": "Thangavel Nadar",
+                    "children": [
+                      {
+                        "name": "Ramanathan Nadar"
+                      },
+                      {
+                        "name": "Sundarraj Nadar"
+                      }
+                    ]
                   },
                   {
-                    "name": "XYZ Nadar",
-                    "children": []
+                    "name": "Narayana Nadar (alias) Chellaiya",
+                    "children": [
+                      {
+                        "name": "Senthurpandi Nadar",
+                        "children": [
+                          {
+                            "name": "..."
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Mohan Nadar",
+                        "children": [
+                          {
+                            "name": "..."
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
@@ -95,7 +168,20 @@
       },
       {
         "name": "Nalla Thambi Nadar",
-        "children": []
+        "children": [
+          {
+            "name": "Perumal Nadar",
+            "children": []
+          },
+          {
+            "name": "Choodalaiaadum Perumal Nadar",
+            "children": []
+          },
+          {
+            "name": "Veerabaghu Nadar",
+            "children": []
+          }
+        ]
       }
     ]
   }
