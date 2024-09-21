@@ -30,3 +30,44 @@
 .rd3t-node {
   cursor: pointer;
 }
+
+.fixed-panel {
+  position: fixed;
+  top: 60px; /* Adjust based on your header height */
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.fixed-panel h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.fixed-panel p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .fixed-panel {
+    position: relative; /* Change to relative for mobile */
+    top: auto; /* Reset top position */
+    right: auto; /* Reset right position */
+    margin: 0; /* Reset margin */
+    border: none; /* Optional: Remove border */
+    padding: 10px; /* Maintain padding */
+    box-shadow: none; /* Remove shadow */
+    background-color: rgba(
+      255,
+      255,
+      255,
+      0.9
+    ); /* Slightly transparent for better visibility */
+  }
+}

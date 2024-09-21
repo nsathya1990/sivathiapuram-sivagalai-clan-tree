@@ -25,8 +25,8 @@
                 "name": "Ilayaperumal Nadar (alias) XYZ",
                 "children": [
                   {
-                    "name": "Aarogyam Nadar (NO CHILD)",
-                    "children": []
+                    "name": "Aarogyam Nadar",
+                    "noChildren": true
                   },
                   {
                     "name": "Yesuvadiyan Nadar",
@@ -35,8 +35,8 @@
                         "name": "...",
                         "children": [
                           {
-                            "name": "... (ONLY FEMALE CHILDREN)",
-                            "children": []
+                            "name": "...",
+                            "onlyGirlChild": true
                           }
                         ]
                       },
@@ -82,7 +82,7 @@
                         "children": [
                           {
                             "name": "Subramanya Nadar",
-                            "children": []
+                            "onlyGirlChild": true
                           },
                           {
                             "name": "Siva Balan Nadar",

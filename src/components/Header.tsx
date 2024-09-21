@@ -21,10 +21,10 @@ const Header: React.FC = () => {
         </div>
         <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
           <li>
-            <Link to='/'>Home</Link>
+            <Link to='/'>Ancestors (male)</Link>
           </li>
           <li>
-            <Link to='/left-right'>Left-Right View</Link>
+            <Link to='/left-right'>Whole family</Link>
           </li>
           <li>
             <Link to='/contact'>Contact Us</Link>
