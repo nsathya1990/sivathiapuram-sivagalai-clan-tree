@@ -18,3 +18,9 @@
 .node-gen-4 circle {
   fill: #8a2be2;
 } /* Generation 5 */
+
+.rd3t-node text,
+.rd3t-leaf-node text {
+  stroke: none; /* Remove any stroke that might be making it appear bold */
+  font-weight: normal !important; /* Ensure the font weight is normal */
+}

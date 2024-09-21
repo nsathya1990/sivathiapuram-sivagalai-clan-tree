@@ -1,4 +1,3 @@
-// src/components/Tree.tsx
 import React, { useState, useEffect, useRef } from 'react';
 import Tree from 'react-d3-tree';
 import './Tree.css';
@@ -64,7 +63,7 @@ const FamilyTree: React.FC<TreeProps> = ({ treeDataUrl, orientation }) => {
                 r={15}
                 className={getNodeClassName(hierarchyPointNode.depth)}
               />
-              <text fill='black' x='20' y='-10'>
+              <text fill='black' x='20' y='-10' style={{ fontSize: '12px' }}>
                 {nodeDatum.name}
               </text>
             </g>
