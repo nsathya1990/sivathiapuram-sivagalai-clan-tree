@@ -12,7 +12,12 @@ const TreePage1: React.FC = () => {
 };
 
 const TreePage2: React.FC = () => {
-  return <FamilyTree treeDataUrl='/data/tree2.json' orientation='horizontal' />;
+  return (
+    <FamilyTree
+      treeDataUrl='/data/male-ancestors.json'
+      orientation='horizontal'
+    />
+  );
 };
 
 export { TreePage1, TreePage2 };

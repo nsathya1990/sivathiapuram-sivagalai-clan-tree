@@ -1,26 +1,32 @@
-/* src/components/Tree.css */
+/* General Styles */
 #treeWrapper {
   width: 100%;
   height: 100vh;
 }
-.node-gen-0 circle {
-  fill: #ff6347;
-} /* Generation 1 */
-.node-gen-1 circle {
-  fill: #4682b4;
-} /* Generation 2 */
-.node-gen-2 circle {
-  fill: #32cd32;
-} /* Generation 3 */
-.node-gen-3 circle {
-  fill: #ffd700;
-} /* Generation 4 */
-.node-gen-4 circle {
-  fill: #8a2be2;
-} /* Generation 5 */
+
+/* Node styling */
+.node-gen-0 {
+  fill: #e0f7fa;
+}
+.node-gen-1 {
+  fill: #ffccbc;
+}
+.node-gen-2 {
+  fill: #c8e6c9;
+}
+.node-gen-3 {
+  fill: #ffe0b2;
+}
+.node-gen-4 {
+  fill: #d1c4e9;
+}
 
 .rd3t-node text,
 .rd3t-leaf-node text {
   stroke: none; /* Remove any stroke that might be making it appear bold */
   font-weight: normal !important; /* Ensure the font weight is normal */
+}
+
+.rd3t-node {
+  cursor: pointer;
 }

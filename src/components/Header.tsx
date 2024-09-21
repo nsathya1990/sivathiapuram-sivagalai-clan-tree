@@ -6,14 +6,16 @@ import './Header.css'; // Custom CSS for styling
 const Header: React.FC = () => {
   return (
     <header className='header'>
-      <h1>Sivathiapuram-Sivagalai Nadar Clan Ancestral Tree</h1>
-      <nav>
-        <ul>
+      <h1 className='title'>
+        Sivathiapuram-Sivagalai Nadar Clan Ancestral Tree
+      </h1>
+      <nav className='navbar'>
+        <ul className='nav-links'>
           <li>
-            <Link to='/'>Tree 1</Link>
+            <Link to='/'>Home</Link>
           </li>
           <li>
-            <Link to='/tree2'>Tree 2</Link>
+            <Link to='/tree2'>Left-Right View</Link>
           </li>
           <li>
             <Link to='/contact'>Contact Us</Link>
